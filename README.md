@@ -31,7 +31,7 @@
 
 ## Overview
 
-![Screenshot 2021-04-15 at 10 29 44](https://user-images.githubusercontent.com/64441365/114897407-d1999e80-9dd6-11eb-9e99-b64a7931e7dd.png)
+![Screenshot 2021-04-15 at 10 29 44](https://user-images.githubusercontent.com/64441365/114903602-94d0a600-9ddc-11eb-8234-1613a107d4b0.png)
 
 This gallery is built with a responsive grid system that allows the rescaling of text and images to fit different device screen sizes. I used 4 breakpoints for phone, tablet portrait, tablet landscape and desktop. A different approach to breakpoints was implemented, thinking of devices as ranges instead of limits. Visit the Acknowledgements section to read an article by David Gilbertson about the topic.  
 
