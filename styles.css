@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #facb5a;
+  --secondary-color: #ffe86b;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+}
