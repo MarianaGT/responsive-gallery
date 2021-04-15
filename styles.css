@@ -29,12 +29,13 @@ h2, p {
 .info-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin: 2em;
 }
 
 .flex {
   display: flex;
+  justify-content: center;
 }
 
 .grid-container {
@@ -49,7 +50,7 @@ h2, p {
   border-radius: 12px;
   height: 100%;
   width: 100%;
-  box-shadow: 2px 10px 18px var(--secondary-color);
+  box-shadow: 5px 10px 18px #ededed;
 }
 
 .image-1 {
