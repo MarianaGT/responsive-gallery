@@ -1,9 +1,66 @@
 :root {
-  --primary-color: #facb5a;
-  --secondary-color: #ffe86b;
+  --primary-color: #4E5150;
+  --secondary-color: #A9A9A9;
 }
 
 body {
   font-family: Montserrat, sans-serif;
-  line-height: 1.5em;
+  color: var(--primary-color);
+}
+
+.gray {
+  color: var(--secondary-color);
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 1fr 1fr 1fr
+  grid-column-gap: 16px;
+  grid-auto-flow:
+}
+
+.image-1 {
+  height: 200px;
+}
+
+.image-2 {
+  height: 200px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.image-3 {
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.image-4 {
+  width: 200px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.image-5 {
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.image-6 {
+  height: 200px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
